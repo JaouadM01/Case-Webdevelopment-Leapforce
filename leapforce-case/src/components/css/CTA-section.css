@@ -32,21 +32,9 @@
 }
 
 .cta-cards {
-    /* uit design*/
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
+    background-color: #ffffff;
+    display: flex;
     gap: 24px;
-
-    width: 1312px;
-    height: 515px;
-
-    background: #FFFFFF;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+    position: relative;
 }
