@@ -1,6 +1,6 @@
 import './css/CTA-section.css'
 import CTAcard from './CTA-card';
-import image from "../assets/CTAimage.png"
+import image from "../assets/stockimage.jpg"
 
 const CTAsection = () => {
      return (
@@ -19,6 +19,7 @@ const CTAsection = () => {
             title="Title"
             text="Supporting text about the call-to-action goes here."
         />
+         
         <CTAcard 
             imageSrc={image}
             alt="Man and woman in the kitchen playfully"

@@ -1,40 +1,17 @@
 .cta-visual-section {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 4rem 1rem;
-    text-align: center;
-}
-
-.cta-header .label {
-    font-size: 0.875rem;
-    color: #777;
-    margin-bottom: 0.5rem;
-}
-
-.cta-header h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #111;
-    line-height: 1.4;
-}
-
-.cta-header .body-text {
-    color: #444;
-    margin-bottom: 1rem;
-}
-
-.cta-header .cta-link {
-    color: #b00020;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.95rem;
-}
-
-.cta-cards {
-    align-items: flex-start;
-    background-color: #ffffff;
+    width: 1440px;
+    height: 972px;
     display: flex;
+    padding: 64px 64px 96px 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+}
+
+.cta-visual-section .cta-cards {
+    display: flex;
+    align-items: flex-start;
     gap: 24px;
-    position: relative;
+    align-self: stretch;
 }
