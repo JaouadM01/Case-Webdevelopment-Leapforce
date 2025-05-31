@@ -1,0 +1,115 @@
+.label-title-link {
+    display: flex;
+    width: 864px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.label-title {
+    display: flex;
+    width: 642px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.label-title .label {
+    align-self: stretch;
+
+    color: #39494D;
+    text-align: center;
+
+    /* Desktop/Label */
+    font-family: "TT Commons Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 16px;
+    /* 106.667% */
+    letter-spacing: 0.3px;
+}
+
+.label-title .title {
+    align-self: stretch;
+
+    color: #212121;
+    text-align: center;
+
+    /* Desktop/Heading 2 */
+    font-family: "TT Commons Pro";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    /* 120% */
+    letter-spacing: -1.2px;
+}
+
+.label-title .title .call-to-action {
+    align-self: stretch;
+    color: #212121;
+
+    /* Desktop/Optional Highlight 2 */
+    font-family: "GT Alpina", sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: -1.26px;
+}
+
+.label-title-link .body-text {
+    align-self: stretch;
+    color: #1E2526;
+    text-align: center;
+
+    /* Desktop/Body - Normal */
+    font-family: "TT Commons Pro";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 24px;
+    /* 126.316% */
+    opacity: 0.8;
+}
+
+.label-title-link .button {
+    width: 158px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #BF564D;
+    font-family: "TT Commons Pro";
+    font-size: 19px;
+    font-weight: 450;
+    line-height: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 26px;
+}
+
+.label-title-link .button .svg-wrapper {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button States*/
+.label-title-link .button:hover {
+    color: #A6433A;
+}
+.label-title-link .button:focus {
+    color: #59201B;
+}
+.label-title-link .button:disabled {
+    color: #1B2426;
+    opacity: 0.3;
+}
+
+
+

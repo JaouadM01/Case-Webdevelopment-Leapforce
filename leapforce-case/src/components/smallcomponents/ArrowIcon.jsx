@@ -1,6 +1,6 @@
-const ArrowIcon = () => {
+const ArrowIcon = ({className = ""}) => {
     return (
-        <span className="material-symbols-outlined">
+        <span className={`material-symbols-outlined ${className}`}>
             arrow_right_alt
         </span>
     )

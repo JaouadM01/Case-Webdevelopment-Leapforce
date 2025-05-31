@@ -21,9 +21,9 @@
 }
 
 .arrow-button:disabled {
-  opacity: 0.3;
   cursor: not-allowed;
   border-color: rgba(27, 36, 38, 0.3);
+  opacity: 0.3;
 }
 
 .material-symbols-outlined {
