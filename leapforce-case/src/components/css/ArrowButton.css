@@ -9,26 +9,29 @@
   background-color: transparent;
   cursor: pointer;
   transition: border-color 0.2s ease;
+
+  color: #FFF;
 }
 
 .arrow-button:hover {
   border-color: rgba(27, 36, 38, 0.5); /* iets donkerder bij hover */
+  color: #FFF;
 }
 
 .arrow-button:focus {
-  border-color: rgba(27, 36, 38, 0.8); /* nog donkerder bij focus */
+  border-color: rgba(27, 36, 38, 0.80); /* nog donkerder bij focus */
   outline: none;
+  color: #FFF;
 }
 
 .arrow-button:disabled {
   cursor: not-allowed;
-  border-color: rgba(27, 36, 38, 0.3);
+  border-color: rgba(255, 255, 255, 0.30);
   opacity: 0.3;
 }
 
 .material-symbols-outlined {
   font-family: "Material Symbols Outlined";
   font-size: 24px;
-  color: white;
-  /* Imported Icon van Google, ik zag dat de icon of figma was zelf getekend*/
+  color: white; /* Design zegt wit maar component layout zegt zwart, dus ik stick met zwart*/
 }

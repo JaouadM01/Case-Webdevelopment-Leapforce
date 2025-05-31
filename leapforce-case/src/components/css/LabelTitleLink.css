@@ -88,6 +88,7 @@
     background: none;
     cursor: pointer;
     border-radius: 26px;
+    transition: color 0.2s ease;
 }
 
 .label-title-link .button .svg-wrapper {
