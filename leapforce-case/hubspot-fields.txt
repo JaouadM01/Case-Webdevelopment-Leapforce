@@ -1,0 +1,76 @@
+# HubSpot Custom Fields - CTA Section 2 Blocks
+
+# De CTA section heb ik opgedeeld in 2 delen: LabelTitleLink & CTA-card
+# Documentatie van deze elementen gaat als volgt:
+
+# 📌 HubSpot Custom Fields voor LabelTitleLink component
+
+1. Veld: Label (label)
+- Required: Nee
+- Default value: "Label"
+- Tooltip: Korte en kleine bovenkop die boven de titel verschijnt.
+- Constraints: Max. 50 tekens. Alleen tekst.
+
+2. Veld: 1e deel Titel (titleStart)
+- Required: Ja
+- Default value: "Mandatory title about the"
+- Tooltip: Eerste deel van de hoofdtekst. Verschijnt vóór de call-to-action.
+- Constraints: Max. 50 tekens. Alleen tekst.
+
+3. Veld: Call-to-action highlight (callToAction)
+- Required: Ja
+- Default value: "call-to-action"
+- Tooltip: Dit deel van de titel krijgt speciale opmaak (andere font/stijl).
+- Constraints: Max. 25 tekens. Alleen tekst, geen HTML.
+
+4. Veld: Laatste deel Titel (titleEnd)
+- Required: Ja
+- Default value: "here"
+- Tooltip: Laatste deel van de hoofdtekst. Verschijnt ná de call-to-action.
+- Constraints: Max. 50 tekens. Alleen tekst.
+
+5. Veld: Body tekst (bodyText)
+- Required: Nee
+- Default value: "Optional body copy goes here."
+- Tooltip: Paragraaf onder de titel. Kan aanvullende uitleg of context bevatten.
+- Constraints: Max. 150 tekens. Alleen tekst.
+
+6. Veld: Knoptekst (buttonText)
+- Required: Nee
+- Default value: "Optional button"
+- Tooltip: Tekst die op de knop verschijnt.
+- Constraints: Max. 20 tekens. Alleen tekst. Geen emoji of HTML.
+
+
+# 📌 HubSpot Custom Fields voor CTA-card component(waaronder TitlePlainText)
+
+1. Veld: Afbeelding (imageSrc)
+- Required: Ja
+- Default value: N.v.t(namelijk zonder image heb je geen behoefte aan een afbeelding element).
+- Tooltip: De achtergrondafbeelding van de CTA-kaart.
+- Constraints: Alleen .jpg/.png/.webp. Minimaal 600x400px aanbevolen. Max 2MB. Hoge scherpte/resolutie. Werkt ook met links.
+
+2. Veld: Afbeelding alt-tekst (alt)
+- Required: Ja
+- Default value: "CTA image"
+- Tooltip: Alternatieve tekst voor toegankelijkheid en SEO.
+- Constraints: Max. 100 tekens. Alleen platte tekst, geen HTML.
+
+3. Veld: Afbeelding caption (caption) *Momenteel word het niet getoond, dat zat namelijk in het design dat het hidden was**
+- Required: Nee
+- Default value: ""
+- Tooltip: Optionele ondertitel voor de afbeelding. Wordt onderaan over de afbeelding getoond.
+- Constraints: Max. 80 tekens. Alleen tekst. Geen HTML of links.
+
+4. Veld: Titel (title)
+- Required: Ja
+- Default value: "CTA Titel"
+- Tooltip: De grote titel in de CTA-kaart.
+- Constraints: Max. 30 tekens. Alleen tekst.
+
+5. Veld: Paragraaftekst (text)
+- Required: Nee
+- Default value: "Extra context of uitleg over de call-to-action."
+- Tooltip: Kleine tekst onder de titel. Wordt in wit met lagere opacity getoond.
+- Constraints: Max. 100 tekens. Alleen tekst.
+

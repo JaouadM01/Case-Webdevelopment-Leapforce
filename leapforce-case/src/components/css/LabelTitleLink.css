@@ -104,13 +104,76 @@
 .label-title-link .button:hover {
     color: #A6433A;
 }
+
 .label-title-link .button:focus {
     color: #59201B;
 }
+
 .label-title-link .button:disabled {
     color: #1B2426;
     opacity: 0.3;
 }
 
 
+@media (max-width: 768px) {
+    .label-title-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        width: 100%;
+        padding: 0 20px;
+    }
 
+    .label-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .label-title .label {
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.28px;
+        text-align: center;
+        word-break: break-word;
+    }
+
+    .label-title .title {
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -0.72px;
+        text-align: center;
+        word-break: break-word;
+    }
+
+    .label-title .title .call-to-action {
+        font-size: 38px;
+        line-height: 40px;
+        letter-spacing: -1.14px;
+    }
+
+    .label-title-link .body-text {
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .label-title-link .button {
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        border-radius: 26px;
+    }
+
+    .label-title-link .button .svg-wrapper {
+        width: 24px;
+        height: 24px;
+        padding: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

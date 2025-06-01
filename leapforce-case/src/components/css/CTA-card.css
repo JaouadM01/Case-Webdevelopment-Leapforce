@@ -21,18 +21,20 @@
 
 .image-cta .caption {
     position: absolute;
+    bottom: 8px; /* onderaan, iets boven de rand */
+    left: 16px;
 
     color: white;
     font-size: 15px;
     opacity: 0.5;
-    z-index: 2;
+    z-index: 0; /* lager dan frame zodat het niet interfereert */
     margin: 0;
 
-    width: 400px;
-    height: 16px;
+    max-width: 90%;
     font-weight: 450;
 
-    display: none;
+    display: none; /* standaard verborgen */
+    pointer-events: none; /* zodat het nooit klikbaar is */
 }
 
 .image-cta .gradient {
@@ -54,4 +56,26 @@
     justify-content: space-between;
     align-items: flex-end;
     z-index: 3;
+}
+
+@media (max-width: 768px) {
+  .image-cta {
+    width: 335px;
+    height: 252px;
+  }
+
+  .image-cta .gradient {
+    height: 126px;
+    width: 100%;
+  }
+
+  .image-cta .frame {
+    width: calc(100% - 32px); /* 16px padding left & right */
+    left: 16px;
+    right: 16px;
+    bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
 }

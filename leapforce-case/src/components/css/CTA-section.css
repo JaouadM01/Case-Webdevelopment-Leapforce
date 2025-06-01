@@ -1,22 +1,55 @@
+/* ✅ Global Reset */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* ✅ Desktop Styles */
 .wrapper {
     max-width: 1440px;
     margin: 0 auto;
 }
 
 .cta-visual-section {
-    width: 1440px;
-    height: 972px;
-    display: flex;
+    width: 100%;
+    min-height: 972px;
     padding: 64px 64px 96px 64px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 80px;
-    align-self: stretch;
 }
 
 .cta-visual-section .cta-cards {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     gap: 24px;
-    align-self: stretch;
+    width: 100%;
+}
+
+/* 📱 Mobile Styles */
+@media (max-width: 768px) {
+    .wrapper {
+        max-width: 100%;
+        padding: 0;
+        border-top: 1px solid #e0e0e0;
+    }
+
+    .cta-visual-section {
+        padding: 48px 20px 64px 20px;
+        gap: 32px;
+        align-items: stretch;
+        min-height: auto;
+    }
+
+    .cta-visual-section .cta-cards {
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+        max-width: 335px;
+        margin: 0 auto;
+    }
 }

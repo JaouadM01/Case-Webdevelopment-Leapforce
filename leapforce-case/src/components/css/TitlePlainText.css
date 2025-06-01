@@ -34,7 +34,24 @@
     /* 126.316% */
 
     opacity: 0.5;
-    
-
-    
 }
+
+/* === Mobile Styles === */
+@media (max-width: 768px) {
+    .title-plaintext {
+        width: 239px;
+    }
+
+    .title-plaintext .text-wrapper {
+        font-size: 22px;
+        line-height: 24px; /* 109.091% */
+        letter-spacing: -0.22px;
+    }
+
+    .title-plaintext .plain-text {
+        font-size: 17px;
+        line-height: 24px; /* 141.176% */
+    }
+}
+
+/*dubbel check font sizes en weight */

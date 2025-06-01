@@ -7,7 +7,7 @@ const CTAcard = ({ imageSrc, title, text, alt, caption }) => {
         <div className="image-cta">
 
             <img src={imageSrc} alt={alt} className="image" />
-            <p className="caption">Caption</p>
+            <p className="caption">{caption}</p>
 
 
             <div className="gradient" />
@@ -23,5 +23,3 @@ const CTAcard = ({ imageSrc, title, text, alt, caption }) => {
 }
 
 export default CTAcard
-
-// voeg mogelijk hier proptypes toe
